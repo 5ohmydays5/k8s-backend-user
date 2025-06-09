@@ -35,8 +35,7 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
-jar {
-	enabled = false	// plain.jar 생성 완전히 비활성화
+jar { enabled = false // plain.jar 생성 완전히 비활성화
 }
 
 tasks.register('getAppName') {
@@ -44,7 +43,7 @@ tasks.register('getAppName') {
 	}
 }
 
-tasks . register('getAppVersion') {
+tasks.register('getAppVersion') {
 	doLast { println "${project.version}"
 	}
 }
