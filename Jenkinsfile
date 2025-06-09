@@ -31,7 +31,7 @@ pipeline {
         GITHUB_CREDENTIAL = "github-token"
         ARTIFACTS = "build/libs/**"
         DOCKER_REGISTRY = "5ohmydays"
-        DOCKERHUB_CREDENTIAL = 'docker-hub-token'
+        DOCKERHUB_CREDENTIAL = 'dockerhub-token'
     }
 
     options {
