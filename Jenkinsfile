@@ -29,7 +29,7 @@ environment {
     GIT_URL = "https://github.com/5ohmydays5/k8s-backend-user.git"
     GITHUB_CREDENTIAL = "github-token"
     ARTIFACTS = "build/libs/**"
-    DOCKER_REGISTRY = "5ohmydays"
+    DOCKER_REGISTRY = "5ohmydays5"
     DOCKERHUB_CREDENTIAL = 'docker-hub-token'
 }
 
